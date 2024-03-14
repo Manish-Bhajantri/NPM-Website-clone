@@ -1,0 +1,1157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row1 {
+  height: 10px;
+  width: 100%;
+  background-image: linear-gradient(100deg, rgba(255, 166, 0, 0.662), red, rgba(128, 0, 128, 0.575));
+}
+
+.active {
+  color: red;
+}
+
+.navbar {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heart {
+  margin-left: 50px;
+}
+
+.options {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  margin-right: 50px;
+  gap: 30px;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: black;
+  letter-spacing: 1px;
+
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-weight: 548;
+  font-size: 14px;
+}
+
+.HomeContainer {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.npmLogo {
+  padding-top: 0px;
+  margin-left: 30px;
+  padding-bottom: 5px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1px 2px 1px 0px;
+  /* background-color: rgb(238, 234, 234); */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* .SBar {
+  border: solid 0px;
+  height: 49px;
+  width: 900px;
+  font-size: 16px;
+  background-color: rgb(238, 234, 234);
+  font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+} */
+
+.group {
+  height: 50px;
+  width: 1150px;
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  border: none;
+  height: 50px;
+  width: 1010px;
+  line-height: 28px;
+  padding: 5px;
+  padding-left: 2.5rem;
+  outline: none;
+  color: gray;
+  transition: .3s ease;
+  background-color: rgba(244, 242, 242, 0.959);
+  font-size: 17px;
+  font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.input:focus::placeholder {
+  color: black;
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: black;
+  width: 1rem;
+  height: 1rem;
+}
+
+.Sbutton {
+  border: none;
+  height: 50px;
+  width: 120px;
+  margin-left: 0px;
+  background-color: #231F20;
+  color: white;
+  font-size: 16px;
+  padding: 8px 32px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.signUp {
+  border: solid 1px #cccccc;
+  height: 50px;
+  width: 110px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 0px 16px 0px 16px;
+  font-weight: 600;
+  margin-left: 20px;
+  background-color: white;
+  transition: all ease-in 0.1s;
+}
+
+.signUp:hover {
+  color: rgb(120, 119, 119);
+}
+
+
+.signIn {
+  border: none;
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 4px;
+  font-weight: 600;
+  margin-left: 3px;
+  transition: all ease-in 0.1s;
+}
+
+.signIn:hover {
+  color: rgb(120, 119, 119);
+}
+
+.Homerow1 {
+  border: none;
+  height: 870px;
+  width: 100%;
+  margin-top: 10px;
+  background-image: linear-gradient(100deg, rgba(176, 42, 42, .16)0%, rgba(176, 42, 42, .56)18.45%, rgba(176, 42, 42, .8)49.67%, rgba(176, 42, 42, .56) 82.52%,
+      rgba(176, 42, 42, .196364) 99.7%,
+      rgba(189, 40, 40, 0) 99.71%,
+      rgba(203, 56, 55, 0) 99.72%,
+      rgba(203, 56, 55, .16) 99.73%), url(https://static-production.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Homeheading {
+  border: solid 0px black;
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  font-size: 5rem;
+  font-family: poppin, sans-serif;
+  color: #ffff;
+  font-weight: 700;
+  margin: auto;
+  padding-top: 120px;
+  line-height: 1.25;
+  letter-spacing: 1px;
+}
+
+.HomePara {
+  border: solid 0px black;
+  height: 150px;
+  width: 520px;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  font-family: Arimo, sans-serif;
+  color: #ffffff;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.HomeMoto {
+  border: solid 0px black;
+  height: 100px;
+  width: 500px;
+  font-size: 36px;
+  color: #ffff;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+}
+
+.Btns {
+  border: solid 0px black;
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+
+}
+
+.HomeSingUpBtn {
+  border: solid 0px black;
+  height: 55px;
+  width: 250px;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  background-color: #ffc329;
+  padding: 16px 32px;
+  border-radius: 30px;
+  font-weight: 800;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+  cursor: pointer;
+}
+
+.HomeLearnBtn {
+  border: solid 2px white;
+  height: 55px;
+  width: 250px;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Homerow2 {
+  border: solid 0px black;
+  height: 650px;
+  width: 100%;
+}
+
+.Homerow2Img {
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.Homerow2Moto {
+  border: solid 0px black;
+  height: 230px;
+  width: 450px;
+  font-size: 2.25rem;
+  font-family: poppins, sans-serif;
+  color: #333333;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.Homerow2Para {
+  border: solid 0px black;
+  height: 200px;
+  width: 500px;
+  font-size: 16px;
+  font-family: Arimo, sans-serif;
+  color: #333333;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.Footer {
+  border: solid 0px black;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+.Imgs {
+  height: 150px;
+  width: 80px;
+  margin-left: -220px;
+}
+
+.FooterPoints {
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  color: #333333;
+  margin-block: 1em;
+  font-weight: 700;
+  display: block;
+  margin-left: -200px;
+}
+
+.UlLinks {
+  list-style: none;
+}
+
+.FooterLinks {
+  font-size: 18px;
+  margin-left: -200px;
+  text-decoration: none;
+  line-height: 35px;
+  color: rgb(84, 83, 83);
+}
+
+.SingUpPage {
+  height: 910px;
+  width: 100%;
+}
+
+.formImg {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.form {
+  height: 550px;
+  width: 480px;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  margin: auto;
+  margin-top: 25px;
+  line-height: 20px;
+}
+
+.singupHeading {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  font-weight: 540;
+  color: #000000B3;
+}
+
+.formUserName {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  color: #000000E6;
+  font-weight: 550;
+}
+
+.password {
+  height: 60px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.userPasswordBar {
+  border: solid 1px black;
+  border-right: none;
+  height: 38px;
+  width: 330px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.showBtn {
+  border: solid 1px black;
+  border-left: none;
+  height: 38px;
+  width: 70px;
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.userNameBar {
+  border: solid 2px blue;
+  border: solid 1px black;
+  height: 38px;
+  width: 400px;
+  border-radius: 0.25rem;
+  color: rgba(0, 0, 0, .7);
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.spanPara {
+  font-size: 13px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  color: #000000CC;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+.spanLinks {
+  color: black;
+}
+
+.SignUpBtn {
+  border: solid 1px rgb(212, 210, 210);
+  height: 40px;
+  width: 400px;
+  font-size: 16px;
+  color: #0000001A;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  background-color: #00000006;
+  padding: 8px 16px;
+}
+
+.AlreadyAc {
+  font-size: 15px;
+  color: #363636;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.singInLink {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 15px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  color: #1b1b1b;
+  font-weight: 550;
+}
+
+.signInpage {
+  height: 1000px;
+}
+
+.npmimg {
+  display: block;
+  margin: auto;
+  margin-top: 51px;
+}
+
+.SingInForm {
+  border: solid 0px black;
+  height: 640px;
+  width: 500px;
+  margin: auto;
+  padding: 0px 50px 50px 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.images {
+  height: 250px;
+}
+
+.signInText {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  font-weight: 540;
+  color: #000000B3;
+
+}
+
+.flex-column>label {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  color: #000000E6;
+}
+
+.inputForm {
+  border: 0px solid black;
+  border-radius: 5px;
+  height: 42px;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.SingIninput {
+  border-radius: 5px;
+  border: none;
+  width: 420px;
+  height: 43px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 17px;
+}
+
+.SingIninput:focus {
+  outline: none;
+}
+
+.SingIninput:focus-within {
+  border: 4px solid #2d79f3;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+}
+
+.forgotPass {
+  font-size: 17px;
+  margin-left: 5px;
+  font-weight: 500;
+  margin-left: 275px;
+  color: black;
+}
+
+.button-submit {
+  margin: 20px 0 10px 0;
+  border: none;
+  color: rgb(212, 209, 209);
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  height: 40px;
+  width: 420px;
+  cursor: pointer;
+  border: solid 1px rgb(206, 205, 205);
+}
+
+.CrtAc {
+  color: black;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+}
+
+.ForgotPass {
+  border: solid 0px black;
+  height: 270px;
+  width: 480px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 45px;
+  padding-left: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.ResetnpmImg {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.ResetP {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  color: #000000;
+  font-weight: 550;
+}
+
+.ResetPara {
+  font-size: 15px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  color: #000000;
+}
+
+.ResetEmail {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  color: #000000;
+  font-weight: 550;
+}
+
+.ResetInput {
+  border: solid 1px black;
+  height: 38px;
+  width: 400px;
+  resize: vertical;
+  background: white;
+  border-radius: 5px;
+}
+
+.ResetBtn {
+  border: solid 1px black;
+  height: 38px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: white;
+}
+
+.ResetLink {
+  display: block;
+  color: rgb(59, 59, 59);
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Source Sans Pro', ' Lucida Grande', sans-serif;
+  font-weight: 500;
+}
+
+.ProPage {
+  height: 2000px;
+  width: 100%;
+}
+
+.Prorow1 {
+  border: solid 1px transparent;
+  height: 1400px;
+  width: 100%;
+  background-image: url(./ProAssets/ProBackGround.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ProImg {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.NpmHeding {
+  font-size: 84px;
+  font-family: poppins, sans-serif;
+  color: #333333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ProRightImg {
+  position: relative;
+  float: right;
+  margin-top: -340px;
+}
+
+.ProPara {
+  height: 100px;
+  width: 520px;
+  font-size: 24px;
+  color: #333333;
+  font-family: Arimo, sans-serif;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 1.5;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.ProLeftImg {
+  margin-top: -180px;
+}
+
+.ProgetStarted {
+  border-bottom: orange 5px solid;
+  height: 55px;
+  width: 255px;
+  background-color: #c12127;
+  font-size: 17px;
+  font-family: Arimo, sans-serif;
+  padding: 16px 32px;
+  color: white;
+  font-weight: 800px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 230px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.GS {
+  color: white;
+  text-decoration: none;
+}
+
+.ProPackageImg {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 315px;
+}
+
+.UnlimitedPack {
+  position: absolute;
+  margin-top: -430px;
+  margin-left: 605px;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+.UnlimitedPackPara {
+  width: 540px;
+  position: absolute;
+  margin-top: -390px;
+  margin-left: 470px;
+  font-size: 16px;
+  font-family: Arimo, sans-serif;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.ProPackageImg2 {
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 315px;
+}
+
+.UnlimitedPack2 {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 605px;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+.UnlimitedPackPara2 {
+  width: 540px;
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 470px;
+  font-size: 16px;
+  font-family: Arimo, sans-serif;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.ProPackageImg3 {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 315px;
+}
+
+.UnlimitedPack3 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 605px;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+.UnlimitedPackPara3 {
+  width: 540px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 470px;
+  font-size: 16px;
+  font-family: Arimo, sans-serif;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.Prorow2 {
+  border: solid 0px black;
+  height: 700px;
+  width: 100%;
+  background-image: linear-gradient(270deg, rgba(176, 42, 42, 0.16) 0%, rgba(176, 42, 42, 0.56) 18.45%, rgba(176, 42, 42, 0.8) 49.67%, rgba(176, 42, 42, 0.56) 82.52%, rgba(176, 42, 42, 0.196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, 0.16) 99.73%), url(./ProAssets/Prorow2Img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Prorow2DollImg {
+  display: block;
+  margin: auto;
+  padding-top: 65px;
+}
+
+.WorkingTeam {
+  font-size: 38px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.npmTeams {
+  font-size: 38px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+.ProPara2 {
+  height: 60px;
+  width: 580px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Arimo', sans-serif;
+  color: #ffff;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.ProBtn {
+  border: solid 2px white;
+  height: 55px;
+  width: 320px;
+  font-size: 16px;
+  color: #ffff;
+  background-color: #cb3837;
+  padding: 16px 64px;
+  letter-spacing: .1em;
+  font-weight: 800;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.ProLinkBtn {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Prorow3 {
+  border: solid 0px black;
+  height: 1400px;
+  width: 100%;
+}
+
+.FeatureCom {
+  border: solid 0px black;
+  height: 650px;
+  width: 700px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 390px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
+}
+
+.color {
+  height: 5px;
+  background: linear-gradient(to right, #e02aff, #c12127, #ff4b01, #fb8817)
+}
+
+.Prorow3Heading {
+  height: 55px;
+  background-color: gray;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.ultimate {
+  border: solid 0px black;
+  height: 50px;
+  width: 250px;
+  font-size: 16px;
+  font-family: 'Arimo', sans-serif;
+  color: #333333;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.ProSymbols {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  height: 150px;
+  border: solid 0px black;
+  text-align: center;
+}
+
+.free {
+  font-size: 18px;
+  font-family: 'Arimo', sans-serif;
+  color: black;
+}
+
+.pro {
+  font-size: 18px;
+  font-family: 'Arimo', sans-serif;
+  color: #c12127;
+}
+
+.note {
+  font-size: 14px;
+  font-family: 'Arimo', sans-serif;
+  color: black;
+  margin-top: 10px;
+  text-align: end;
+  font-style: italic;
+}
+
+.getStarted {
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  line-height: 1.25;
+  text-align: center;
+  margin-top: 60px;
+  letter-spacing: 1px;
+}
+
+.box1 {
+  border: solid 0px black;
+  height: 240px;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
+  background: #f4f4f4;
+}
+
+.colorLine {
+  height: 10px;
+  background: linear-gradient(to right, #e02aff, #c12127, #ff4b01, #fb8817)
+}
+
+.circle {
+  border: solid 3px transparent;
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white), linear-gradient(to top, #e02aff, #c12127, #ff4b01, #fb8817);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  line-height: calc(60px - 6px);
+  vertical-align: middle;
+  border-radius: 9999px;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 25px;
+  color: #c12127;
+}
+
+.createnewAC {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.createPara {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.createAClink {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.Teamrow1 {
+  border: solid 0px black;
+  height: 700px;
+  width: 100%;
+  background-image: linear-gradient(270deg, rgba(176, 42, 42, 0.16) 0%, rgba(176, 42, 42, 0.56) 18.45%, rgba(176, 42, 42, 0.8) 49.67%, rgba(176, 42, 42, 0.56) 82.52%, rgba(176, 42, 42, 0.196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, 0.16) 99.73%), url(./ProAssets/Prorow2Img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TeamPara {
+  border: solid 0px black;
+  height: 80px;
+  width: 750px;
+  text-align: center;
+  margin: auto;
+  font-size: 24px;
+  font-family: 'Arimo', sans-serif;
+  color: white;
+  margin-top: 40px;
+  font-weight: 1000px;
+  letter-spacing: 1px;
+}
+
+.TeamBtn {
+  border: 0px;
+  height: 60px;
+  width: 250px;
+  border-bottom: orange 5px solid;
+  background: #c12127;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.Teamrow2 {
+  border: solid 0px black;
+  height: 1500px;
+  width: 100%;
+}
+
+.TeamGetStarted {
+  border: solid 0px black;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #e02aff, #c12127, #ff4b01, #fb8817);
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.Pricerow2 {
+  border: solid 2px transparent;
+  height: 860px;
+  width: 100%;
+  background-image: url(./PriceAssets/Pricerow1Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MultyLongBoxs {
+  width: 1050px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 45px;
+  margin-left: 230px;
+}
+
+.LongBox1 {
+  border: solid 0px black;
+  height: 730px;
+  width: 310px;
+  background-color: #757575;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+.LongBoxHeading {
+  border: solid 0px black;
+  height: 50px;
+  width: 140px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'poppins', sans-serif;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.create {
+  border: solid 1px white;
+  height: 50px;
+  width: 280px;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 160px;
+  background-color: transparent;
+}
+
+.LongBox2 {
+  border: solid 0px black;
+  height: 730px;
+  width: 300px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.IndividualCreator {
+  height: 80px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  font-family: 'poppins' sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 1.5;
+  letter-spacing: .1em;
+  font-weight: 600;
+}
+
+.StartwithPro {
+  border: solid 1px black;
+  height: 50px;
+  width: 280px;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 25px;
+  background-color: transparent;
+}
+
+.LongBox3 {
+  border: solid 0px black;
+  height: 730px;
+  width: 300px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.Pricerow3 {
+  border: solid 0px black;
+  height: 920px;
+  width: 100%;
+  padding-top: 200px;
+}
